@@ -1,0 +1,60 @@
+body{
+    text-align: center;
+    background-image: url("../css/back.jpg");
+    background-size: cover;
+    background-color: black;
+    font-family:Arimo SemiBold;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+}
+
+input{
+    width: 25vw;
+    height: 14vh;
+    background-color: rgb(224, 156, 28);
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    border-radius: 35px;
+    text-align: center;
+   
+}
+
+.finish{
+    background-color: rgb(255, 255, 255);
+    color: #4e8ab9;
+    border-radius: 45px;
+    width: 140px;
+    height: 40px;
+   font-size:large;
+}
+
+.finish:hover{
+    box-shadow: 2px 2px 2px 4px #7da4b5;
+  
+  }
+
+  p{
+    font-size: x-large;
+  text-align: center;
+  
+  }
+
+  .glow{
+-webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 2s ease-in-out infinite alternate;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #cd6413, 0 0 30px #dc600e, 0 0 40px #e65800, 0 0 50px #d86914, 0 0 60px #eb5b18, 0 0 70px #d75814;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #b5692b, 0 0 40px #ce5112, 0 0 50px #de5e14, 0 0 60px #bf5e25, 0 0 70px #db6d1e, 0 0 80px #ea4c0d;
+  } 
+  }
+
+  .res{
+    font-size: x-large;
+    
+  }
